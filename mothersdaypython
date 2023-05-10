@@ -52,26 +52,5 @@ while play == 0:
     newLineWithSleep()
 
     flowerBreakLines = [7,15,23,31,39,46]
-        
-    Left_Spaces = randint(8, 80)
-    addSpaces(Left_Spaces)
-    for i in range(0,47):
-        if i in flowerBreakLines:
-            newLineWithSleep()
-            addSpaces(Left_Spaces)
-        elif i in (2,8,12,18):
-            print(magenta + '{', end='')
-        elif i in (3,9,13,19):
-            print(magenta + '_', end='')
-        elif i in (4,10,14,20):
-            print(magenta + '}', end='')
-        elif i in (27,35,43):
-            print(green + '|', end='')
-        elif i in (34,44):
-            print(green + '~', end='')
-        elif i == 11:
-            print(yellow + 'o', end='')
-        else:
-            print(' ', end='')
 
     print('\n', end='') 
