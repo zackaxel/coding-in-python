@@ -76,4 +76,4 @@ while play == 0:
         else:
             print(' ', end='')
 
-    print('\n', end='') # By Mohammad Hashem
+    print('\n', end='') 
